@@ -645,6 +645,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LocalLibrary:XTC4010-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "XTC4010-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LocalLibrary:Crystal_SMD_2016-6Pin_2.0x1.6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.rfmi.co/pdf/datasheet/XTC4010-1.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TCXO 48 MHz"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "XTC4010-1_0_1"
+				(rectangle
+					(start -3.81 -2.54)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "XTC4010-1_1_1"
+				(pin input line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -8.89 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STM32WL33CVGA:STM32WL33CCV6TR"
 			(pin_names
 				(offset 0.254)
@@ -1891,6 +2027,12 @@
 		(uuid "6b91d720-899e-4cd9-b454-1eac0ce2dddc")
 	)
 	(junction
+		(at 195.58 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e83a959-bc1a-43a0-bb2f-4f757d99e74d")
+	)
+	(junction
 		(at 218.44 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1932,6 +2074,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 38.1) (xy 195.58 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00234ad9-9588-4c92-90d8-fe31d31b1e9c")
+	)
+	(wire
+		(pts
 			(xy 81.28 93.98) (xy 87.63 93.98)
 		)
 		(stroke
@@ -1969,6 +2121,16 @@
 			(type default)
 		)
 		(uuid "257f347d-66a4-4aca-8b1a-40b2132680ba")
+	)
+	(wire
+		(pts
+			(xy 154.94 59.69) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da1c8ff-c548-4b3f-b5e6-b9721196eaf4")
 	)
 	(wire
 		(pts
@@ -2142,6 +2304,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 38.1) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdaeddec-ea10-488c-87f9-6b0eaa56f0b5")
+	)
+	(wire
+		(pts
 			(xy 154.94 49.53) (xy 177.8 49.53)
 		)
 		(stroke
@@ -2159,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "da891ace-f9ad-4860-9d38-02e7ffc137c0")
+	)
+	(wire
+		(pts
+			(xy 195.58 34.29) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1704d4-f0bf-42dc-a8bf-6ddf1e3f7104")
 	)
 	(wire
 		(pts
@@ -2340,6 +2522,72 @@
 			(project "veryhighssb"
 				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 195.58 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15b296f6-58fd-4350-a6c7-e4f84db18f54")
+		(property "Reference" "#PWR015"
+			(at 195.58 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 195.58 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e8f1e33-1d8e-4c46-979f-31bddeaa5920")
+		)
+		(instances
+			(project "veryhighssb"
+				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2997,13 +3245,151 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 189.23 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4af8324b-3f45-4d52-8c1d-1996d85f278d")
+		(property "Reference" "#PWR018"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.436 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce9d40d-53c3-4067-9404-c7858470322c")
+		)
+		(instances
+			(project "veryhighssb"
+				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LocalLibrary:XTC4010-1")
+		(at 204.47 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bde9ef0-8590-4990-b540-1fd72b3920e3")
+		(property "Reference" "U2"
+			(at 203.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XTC4010-1"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LocalLibrary:Crystal_SMD_2016-6Pin_2.0x1.6mm"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.rfmi.co/pdf/datasheet/XTC4010-1.pdf"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TCXO 48 MHz"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33721807-08dc-4396-9d13-7d4676792620")
+		)
+		(pin "3"
+			(uuid "6d0552b7-d421-4244-a4d4-e5018f407097")
+		)
+		(pin "1"
+			(uuid "2d934e9d-a08d-439f-ab41-acd40b01e036")
+		)
+		(pin "4"
+			(uuid "8d9b5696-6f6c-4bc4-9362-28d16de6d14c")
+		)
+		(instances
+			(project ""
+				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 177.8 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6aa5af23-fb6a-4e7b-93ad-221728945187")
 		(property "Reference" "#PWR05"
 			(at 177.8 63.5 0)
@@ -3015,7 +3401,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 62.23 0)
+			(at 175.006 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3123,6 +3509,74 @@
 			(project ""
 				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77087d64-3dfd-4fae-9266-fe2ca23bca6d")
+		(property "Reference" "C8"
+			(at 191.77 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100p"
+			(at 191.77 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 195.58 58.7248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "deeb1012-ae54-4b6e-a943-45c8f3d0ddc9")
+		)
+		(pin "1"
+			(uuid "44845e09-d4b4-4128-87a0-7fd28bb7773a")
+		)
+		(instances
+			(project "veryhighssb"
+				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3456,6 +3910,75 @@
 			(project "veryhighssb"
 				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7148b98-d397-4e69-a515-e532dfbe4582")
+		(property "Reference" "C9"
+			(at 192.278 39.878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100p"
+			(at 181.356 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 188.2648 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba004023-3bb2-463a-8246-eca573a9287b")
+		)
+		(pin "1"
+			(uuid "ef4f51b8-87ed-469f-809e-3af7734330a8")
+		)
+		(instances
+			(project "veryhighssb"
+				(path "/cc6f1e14-b8de-4556-83c2-8e4bb51cf5e7"
+					(reference "C9")
 					(unit 1)
 				)
 			)
