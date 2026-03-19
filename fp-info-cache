@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 27319620293124247
+=======
+27220791594542633
+>>>>>>> Stashed changes
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71847,8 +71851,13 @@ Yellow 5381 Series LED
 0
 2
 2
+<<<<<<< Updated upstream
 LocalLibrary
 Crystal_SMD_2016-6Pin_2.0x1.6mm
+=======
+Library
+Crystal_SMD_2016-4Pin_2.0x1.6mm
+>>>>>>> Stashed changes
 SMD2016/4, Crystal, 2.0x1.6mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.q-crystal.com/upload/5/2015552223166229.pdf
 
 0
@@ -98706,6 +98715,7 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+<<<<<<< Updated upstream
 STM32WL33CCVGA
 CON14_2X7_DUK_FTSH_SAI
 
@@ -98748,6 +98758,8 @@ STM32WL33CCV6TR
 0
 49
 49
+=======
+>>>>>>> Stashed changes
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

@@ -1,4 +1,8 @@
 (sym_lib_table
   (version 7)
+<<<<<<< Updated upstream
   (lib (name "LocalLibrary")(type "KiCad")(uri "${KIPRJMOD}/LocalLibrary.kicad_sym")(options "")(descr ""))
+=======
+  (lib (name "LocalSymbols")(type "KiCad")(uri "${KIPRJMOD}/LocalSymbols.kicad_sym")(options "")(descr ""))
+>>>>>>> Stashed changes
 )
