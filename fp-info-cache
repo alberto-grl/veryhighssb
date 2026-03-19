@@ -1,4 +1,4 @@
-27301883194611117
+27319620293124247
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6747,6 +6747,48 @@ capacitor tantalum
 0
 2
 2
+Conn ARM 14
+CON14_2X7_DUK_FTSH_SAI
+
+FTSH-107-01-L-DV-K-TR 
+0
+14
+14
+Conn ARM 14
+CON14_2X7_DUK_FTSH_SAI-L
+
+FTSH-107-01-L-DV-K-TR 
+0
+14
+14
+Conn ARM 14
+CON14_2X7_DUK_FTSH_SAI-M
+
+FTSH-107-01-L-DV-K-TR 
+0
+14
+14
+Conn ARM 14
+VFQFPN-48_6x6x0p9mm_STM
+
+STM32WL33CCV6TR 
+0
+49
+49
+Conn ARM 14
+VFQFPN-48_6x6x0p9mm_STM-L
+
+STM32WL33CCV6TR 
+0
+49
+49
+Conn ARM 14
+VFQFPN-48_6x6x0p9mm_STM-M
+
+STM32WL33CCV6TR 
+0
+49
+49
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
@@ -71805,6 +71847,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LocalLibrary
+Crystal_SMD_2016-6Pin_2.0x1.6mm
+SMD2016/4, Crystal, 2.0x1.6mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://www.q-crystal.com/upload/5/2015552223166229.pdf
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -98657,6 +98706,27 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM32WL33CCVGA
+CON14_2X7_DUK_FTSH_SAI
+
+FTSH-107-01-L-DV-K-TR 
+0
+14
+14
+STM32WL33CCVGA
+CON14_2X7_DUK_FTSH_SAI-L
+
+FTSH-107-01-L-DV-K-TR 
+0
+14
+14
+STM32WL33CCVGA
+CON14_2X7_DUK_FTSH_SAI-M
+
+FTSH-107-01-L-DV-K-TR 
+0
+14
+14
 STM32WL33CCVGA
 VFQFPN-48_6x6x0p9mm_STM
 

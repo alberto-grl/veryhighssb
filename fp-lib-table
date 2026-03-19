@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "veryhighssb")(type "KiCad")(uri "/home/alberto/Schematics/veryhighssb.pretty")(options "")(descr ""))
+  (lib (name "LocalLibrary")(type "KiCad")(uri "${KIPRJMOD}/LocalLibrary.pretty")(options "")(descr ""))
+)
